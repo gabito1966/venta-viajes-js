@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: #bab2b2;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+li a {
+    display: block;
+    color: #ff0000;
+    padding: 8px 16px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+li a.active {
+    background-color: #2b04aa;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #9d5555;
+    color: white;
+}
+
+
+.contenedor {
+    margin-left: 25%;
+    padding: 1px 16px;
+    height: 1000px;
+}
+
+.contenedor p {
+    font-size: 18px;
+    
+}
